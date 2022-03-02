@@ -1,0 +1,4 @@
+bruteforce login buat koimbinasi dari list username dan list password yang kita buat untuk mendapatkan credential login
+
+csrf -> cross site request forgery -> suatu serangan yang di paksa oleh pengguna agar back end melakukan sesuatu yang seharusnya tidak diinginkan 
+csrf toke-> untuk mengakal serangan ini

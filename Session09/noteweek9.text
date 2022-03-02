@@ -1,0 +1,17 @@
+CIA triad
+website harus bisa menjamin confidentiality, integrity, availibility
+
+DOS
+Denial of service menyerang availibility sebuah target
+
+HTTP request structure
+CRLF(Carriage return line feeds)
+slow loris attack
+web scraping
+
+slow loris ini mengincar \r\n karena bila tidak ada \r\n maka req tidak lengkap sehingga sama server harus diselesaikan terlebih dahulu
+yang bila di req dengan jumlah banyak maka server bisa down dan tidak bisa membuka web
+
+
+kalo DOS dari 1 client
+kalo DDOS dari banyak client

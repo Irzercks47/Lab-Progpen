@@ -1,0 +1,57 @@
+body, html{
+    height: 100%;
+}
+
+.bg-index{
+
+    background-image: url("../assets/wp-0.jpg");
+
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-homepage{
+
+    background-image: url("../assets/wp-1.jpg");
+
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-thief{
+
+    background-image: url("../assets/wp-2.jpg");
+
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thief-div{
+    background-color: white;
+    color: black;
+}
+
+.thief-div:hover{
+    background-color: black;
+    color: white;
+}
+
+.login-form{
+    margin: auto;
+    justify-content: center;
+}

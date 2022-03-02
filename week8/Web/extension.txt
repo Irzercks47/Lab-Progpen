@@ -1,0 +1,6 @@
+jpeg
+png
+css
+html
+js
+php

@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Alegreya";
+}
+
+nav {
+  width: 100%;
+  background-color: #2a9cc9;
+  overflow: hidden;
+  padding: 10px 0;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+}
+
+nav a,
+span {
+  float: left;
+  display: block;
+}
+
+nav span {
+  background-color: #fff;
+  color: #2a9cc9;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 12px;
+  text-align: center;
+  margin-right: 4px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 2px 4px;
+  margin: 0 4px;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+footer {
+  background-color: #3b4045;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 14px;
+}
+
+.login-bg {
+  background-image: url("../assets/bg.jpg");
+}
+
+.login-box,
+.register-box {
+  background-color: #fff;
+  width: 35%;
+  border: 1px solid #2a9cc9;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.login-box {
+  margin: 140px auto;
+}
+
+.register-box {
+  margin: 59px auto;
+}
+
+.form-component {
+  margin: 20px 0;
+}
+
+.form-btn,
+.edit-btn {
+  background-color: #2a9cc9;
+  border-radius: 4px;
+  color: #fff;
+  padding: 6px 16px;
+}
+
+.form-btn {
+  cursor: pointer;
+  border: none;
+}
+
+.form-btn:hover {
+  background-color: #fff;
+  color: #2a9cc9;
+  border: 1px solid #2a9cc9;
+}
+
+.edit-btn {
+  font-size: 14px;
+  margin-left: 4px;
+  text-decoration: none;
+}
+
+.edit-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-box button {
+  margin-top: 6px;
+}
+
+.content {
+  margin: 66px auto;
+}
+
+.content .box-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.box,
+.comment-box {
+  -webkit-box-shadow: -1px 1px 21px -4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 1px 21px -4px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 1px 21px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.box {
+  margin: 20px 0;
+}
+
+.box-body,
+.comment-box-body {
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+}
+
+.box-body {
+  padding: 14px 15px;
+  font-size: 20px;
+}
+
+.box-footer,
+.box-topic {
+  background-color: #2a9cc9;
+  color: #fff;
+  border-radius: 0 0 4px 4px;
+}
+
+.box-footer {
+  padding: 4px 15px;
+}
+
+.box-topic {
+  padding: 8px 15px;
+  display: flex;
+}
+
+.box-topic span:not(:first-child) {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #2a9cc9;
+  margin: 0 8px;
+  padding: 0 4px;
+}
+
+.text-blue {
+  color: #2a9cc9;
+}
+
+.comment-box {
+  margin-bottom: 20px;
+}
+
+.comment-box-body {
+  padding: 10px 15px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.comment-box-footer {
+  padding: 10px 15px;
+  background-color: #fafafa;
+  border-radius: 0 0 4px 4px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-box {
+    width: 65%;
+  }
+}

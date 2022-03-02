@@ -1,0 +1,1 @@
+ada segitiga, panjang 3 dan 4 cm. berapa panjang sisi miringnya, gunakan pytagoras

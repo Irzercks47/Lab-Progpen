@@ -1,0 +1,3 @@
+Bisa disiapkan sebelum mulai, jalankan di terminal:
+1. untuk install library request: python -m pip install requests
+2. untuk install library beautiful soup: python -m pip install bs4

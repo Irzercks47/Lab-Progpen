@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-name{
+    padding-left: 1em;
+}
+
+.dnd-container{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("../assets/upload.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.875;
+    background-size: 15rem;
+}
+
+.dnd-file{
+    padding: 12em;
+    top: 50%;
+    width: 100%;
+    opacity: 0;
+}
+
+.dnd-container > div {
+    position: relative;
+    z-index: -1;
+    padding: 1rem 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dnd-container > div > p {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-container{
+    padding : 2rem 2rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40vw;
+}
+
+.with-header{
+    margin-left: .75rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.exec-type{
+    margin-left: .75rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.display-it{
+    height: 4vh;
+}

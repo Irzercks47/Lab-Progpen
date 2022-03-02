@@ -1,0 +1,9 @@
+select * from user where email = '[email]' adn password '[password]'
+
+email = ' or 1 =1 #
+
+select * from user where email = '' or 1 = 1
+
+1 = 1 true
+
+sql injection attack based on 1 = 1 is always true
